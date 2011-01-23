@@ -11,6 +11,7 @@ Source0:	http://trac-hacks.org/changeset/latest/ticketsidebarproviderplugin?old_
 URL:		http://trac-hacks.org/wiki/TicketSidebarProviderPlugin
 BuildRequires:	python-devel
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
