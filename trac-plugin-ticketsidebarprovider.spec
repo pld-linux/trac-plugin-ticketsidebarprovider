@@ -10,6 +10,9 @@ Source0:	http://trac-hacks.org/changeset/latest/ticketsidebarproviderplugin?old_
 # Source0-md5:	b1c643b7844392b4bc7d79fee010978a
 URL:		http://trac-hacks.org/wiki/TicketSidebarProviderPlugin
 BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
